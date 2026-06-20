@@ -80,10 +80,14 @@ YYYY-MM-DD-英文或拼音标题.md
 ---
 title: 文章标题
 date: 2026-06-20 12:00:00 +0800
-categories: [技术]
-tags: [Obsidian, Jekyll]
+categories: [读书笔记]   # 主题，自己定义，如：技术笔记、随笔
+tags: [心理学]           # 标签，可选，用于更细的标记
 ---
 ```
+
+站点按 **主题**（`categories`）归档，不按年月浏览。侧边栏点「主题」可查看所有主题及文章。
+
+可选：在 `_posts` 下按主题建子文件夹，例如 `_posts/读书笔记/2026-06-20-某书.md`。
 
 ### 发布流程
 
@@ -107,7 +111,7 @@ GitHub 已不支持密码推送，需使用 Personal Access Token：
 huyf9.github.io/
 ├── _posts/          # 博客文章（Obsidian 主要写作区）
 ├── _drafts/         # 草稿（自行创建，不会发布）
-├── _tabs/           # 导航页（关于、归档等）
+├── _tabs/           # 导航页（主题、标签、关于等）
 ├── assets/img/      # 图片资源
 ├── templates/       # Obsidian 文章模板
 ├── .obsidian/       # Obsidian 库配置

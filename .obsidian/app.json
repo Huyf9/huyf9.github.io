@@ -1,0 +1,10 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_posts",
+  "attachmentFolderPath": "assets/img",
+  "promptDelete": false,
+  "showLineNumber": true,
+  "strictLineBreaks": false,
+  "useMarkdownLinks": true
+}

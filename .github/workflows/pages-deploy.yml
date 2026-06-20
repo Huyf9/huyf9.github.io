@@ -16,7 +16,6 @@ permissions:
   contents: read
   pages: write
   id-token: write
-  administration: write
 
 # Allow one concurrent deployment
 concurrency:
@@ -39,8 +38,6 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
